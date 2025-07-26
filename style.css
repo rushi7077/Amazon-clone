@@ -1,0 +1,374 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    margin: 0;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.nav-address{
+    height: 50px;
+    width: 90px;
+
+}
+.first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.second{
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.nav-deliver{
+    display: flex;
+}
+.khali{
+    margin-top: 8px;
+}
+.search{
+    height: 35px;
+    width: 620px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#id100{
+    height: 25px;
+    width: 60px;
+}
+.search-select{
+    height: 100%;
+    width: 50px;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+
+}
+.search-icon{
+    height: 35px;
+    width: 45px;
+    color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 157, 0);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+.input-search{
+    height: 30px;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+sign-in{
+    height: 70px;
+    width: 200px;
+}
+span{
+    font-size: 0.85rem;
+}
+.last{
+    font-weight: 600;
+}
+.search:hover{
+    border: 2px solid orange;
+}
+
+.cart i{
+    font-size: 2rem;
+
+}
+.cart{
+    font-weight: 700;
+}
+.panel{
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+
+
+
+.ops p{
+    display: inline;
+    margin-left: 20px;
+}
+.ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.deals{
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+.hero{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.message{
+    background-color: white;
+    height: 30px;
+    width: 90%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.click{
+    color: blue;
+}
+.shop-section{
+    background-color: #e2e7e6;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    margin-top: 20px;
+    background-color: white;
+}
+.image-box1{
+    background-image:url(box5_image.jpg) ;
+    height: 85%;
+    width: 95%;
+    margin-top: 8px;
+    background-size: cover;
+    
+
+
+}
+.box1-design{
+    height: 400px;
+    margin-left: 16px;
+    margin-top: 5px;
+}.box1-design p{
+    font-size: 0.85rem;
+}
+.image-box2{
+    background-image: url(box2_image.jpg);
+    height: 85%;
+    width: 95%;
+    margin-top: 8px;
+    background-size: cover;
+
+
+}
+.box2-design{
+    height: 400px;
+    margin-left: 16px;
+    margin-top: 5px;
+}.box2-design p{
+    font-size: 0.85rem;
+}
+.image-box3{
+    background-image:url(box3_image.jpg);
+    height: 85%;
+    width: 95%;
+    margin-top: 8px;
+    background-size: cover;
+
+
+}
+.box3-design{
+    height: 400px;
+    margin-left: 16px;
+    margin-top: 5px;
+}.box3-design p{
+    font-size: 0.85rem;
+}
+.image-box4{
+    background-image:url(box4_image.jpg);
+    height: 85%;
+    width: 95%;
+    margin-top: 8px;
+    background-size: cover;
+
+
+}
+.box4-design{
+    height: 400px;
+    margin-left: 16px;
+    margin-top: 5px;
+}.box4-design p{
+    font-size: 0.85rem;
+}
+.image-box5{
+    background-image:url(box6_image.jpg);
+    height: 85%;
+    width: 95%;
+    margin-top: 8px;
+    background-size: cover;
+
+
+}
+.box5-design{
+    height: 400px;
+    margin-left: 16px;
+    margin-top: 5px;
+}.box5-design p{
+    font-size: 0.85rem;
+}
+.image-box6{
+    background-image:url(box7_image.jpg);
+    height: 85%;
+    width: 95%;
+    margin-top: 8px;
+    background-size: cover;
+
+
+}
+.box6-design{
+    height: 400px;
+    margin-left: 16px;
+    margin-top: 5px;
+}.box6-design p{
+    font-size: 0.85rem;
+}
+.image-box7{
+    background-image:url(box1_image.jpg);
+    height: 85%;
+    width: 95%;
+    margin-top: 8px;
+    background-size: cover;
+
+
+}
+.box7-design{
+    height: 400px;
+    margin-left: 16px;
+    margin-top: 5px;
+}.box7-design p{
+    font-size: 0.85rem;
+}
+.image-box8{
+    background-image:url(box8_image.jpg);
+    height: 85%;
+    width: 95%;
+    margin-top: 8px;
+    background-size: cover;
+
+
+}
+.box8-design{
+    height: 400px;
+    margin-left: 16px;
+    margin-top: 5px;
+}.box8-design p{
+    font-size: 0.85rem;
+}
+.foot{
+    height: 400px;
+    background-color: black;
+
+}
+.back{
+    color: white;
+    height: 50px;
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel2{
+    background-color: #222f3d;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+ul a{
+    display: block;
+    color: white;
+
+    margin-top: 10px;
+}
+ul p{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.panel3{
+    height: 150px;
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222f3d;
+
+}
+.panel-logo{
+    height: 80px;
+    width: 150px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+
+}
+.panel4{
+    height: 100px;
+    background-color: black;
+    color: white;
+    
+}
+.panel4a{
+
+    text-align: center;
+    padding-top: 20px;
+}
+.panel4a a{
+    color: white;
+    font-size: 0.8rem;
+    margin: 10px;
+
+}
+.panel4b{
+    padding-top: 5px;
+    font-size: 0.8rem;
+    text-align: center;
+}
